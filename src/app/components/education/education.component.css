@@ -1,0 +1,37 @@
+.education-container{
+    height: fit-content;
+    margin: 50px;
+    background-color: #f5f5f5;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+    padding: 20px;
+}
+
+.education-container > h2{
+    margin-left: 20px;
+}
+
+.education-card{
+    display: flex;
+    flex-direction: row;
+    height: 125px;
+    margin-bottom: 20px;
+}
+
+.education-card > img{
+    margin: 10px;
+    height: 100%;
+    border-radius: .5rem;
+}
+
+.education-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 5px;
+}
+
+.education-info > *{
+    margin: 0;
+}

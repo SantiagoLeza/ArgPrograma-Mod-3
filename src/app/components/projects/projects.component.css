@@ -1,0 +1,19 @@
+.projects-container{
+    height: fit-content;
+    margin: 50px;
+    background-color: #f5f5f5;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+    padding: 20px;
+}
+
+.projects-container > h2{
+    margin: 20px;
+}
+
+.project-card{
+    cursor: pointer;
+    color: rgb(0, 110, 255);
+    margin: 30px;
+}

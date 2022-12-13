@@ -1,0 +1,11 @@
+<div class="projects-container">
+    <h2>Proyectos</h2>
+    <div *ngFor="let project of projects">
+        <h3
+        (click)="goToLink(project?.url)"
+        class="project-card"
+        >
+            {{project?.name}}
+        </h3>
+    </div>
+</div>
