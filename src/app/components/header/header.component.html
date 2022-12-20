@@ -1,0 +1,5 @@
+<div class="header">
+    PORTAFOLIO
+    <a routerLink="login" routerLinkActive="active" *ngIf="!isLogged">Iniciar Sesion</a>
+    <button (click)="logout()" *ngIf="isLogged">Cerrar Sesion</button>
+</div>

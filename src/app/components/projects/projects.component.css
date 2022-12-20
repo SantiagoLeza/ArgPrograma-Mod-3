@@ -1,6 +1,5 @@
 .projects-container{
     height: fit-content;
-    margin: 50px;
     background-color: #f5f5f5;
     border-radius: 1rem;
     overflow: hidden;
@@ -14,6 +13,7 @@
 
 .project-card{
     cursor: pointer;
-    color: rgb(0, 110, 255);
+    color: rgb(6, 157, 157);
+    text-decoration: underline;
     margin: 30px;
 }

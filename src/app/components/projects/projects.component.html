@@ -2,7 +2,7 @@
     <h2>Proyectos</h2>
     <div *ngFor="let project of projects">
         <h3
-        (click)="goToLink(project?.url)"
+        (click)="goToLink(project?.html_url)"
         class="project-card"
         >
             {{project?.name}}

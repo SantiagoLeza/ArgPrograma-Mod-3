@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { AuthService } from 'src/app/auth.service';
 
 @Component({
   selector: 'app-banner',
@@ -7,4 +8,9 @@ import { Component } from '@angular/core';
 })
 export class BannerComponent {
 
+  constructor(private authService:AuthService) { }
+
+  public get isLogged(){
+    return this.authService.isLogged;
+  }
 }
